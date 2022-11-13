@@ -16,13 +16,15 @@ class _ClinicsListState extends State<ClinicsList> {
       textDirection: TextDirection.rtl,
       child: Scaffold(
         body: ListView(
-          padding: EdgeInsets.symmetric(horizontal: 18, vertical: 20),
+          padding: EdgeInsets.symmetric(horizontal: 18, vertical: 30),
           children: const [
             Text(
               "قائمة العيادات",
               style: TextStyle(
                   color: Color.fromARGB(255, 17, 132, 219), fontSize: 22),
             ),
+            ClinicCard('عيادة د. محمد جابر','أنف, أذن, حنجرة','جنين - شارع الحسبة'),
+            ClinicCard('عيادة د. محمد جابر','أنف, أذن, حنجرة','جنين - شارع الحسبة'),
             ClinicCard('عيادة د. محمد جابر','أنف, أذن, حنجرة','جنين - شارع الحسبة'),
             ClinicCard('عيادة د. محمد جابر','أنف, أذن, حنجرة','جنين - شارع الحسبة'),
             ClinicCard('عيادة د. محمد جابر','أنف, أذن, حنجرة','جنين - شارع الحسبة'),

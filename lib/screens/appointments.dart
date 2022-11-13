@@ -16,7 +16,7 @@ class _AppointmentsState extends State<Appointments> {
       textDirection: TextDirection.rtl,
       child: Scaffold(
         body: ListView(
-          padding: EdgeInsets.symmetric(horizontal: 18, vertical: 20),
+          padding: EdgeInsets.symmetric(horizontal: 18, vertical: 30),
           children: const [
             Text(
               'مواعيد اليوم',
@@ -37,6 +37,18 @@ class _AppointmentsState extends State<Appointments> {
                 'مراجعة'
                 ),
             AppointmentCard(
+                'حجز رقم 1',
+                "10/9/2021, 11:00 AM",
+                'عيادة د. محمد جابر',
+                'مراجعة'
+                ),
+                AppointmentCard(
+                'حجز رقم 1',
+                "10/9/2021, 11:00 AM",
+                'عيادة د. محمد جابر',
+                'مراجعة'
+                ),
+                AppointmentCard(
                 'حجز رقم 1',
                 "10/9/2021, 11:00 AM",
                 'عيادة د. محمد جابر',

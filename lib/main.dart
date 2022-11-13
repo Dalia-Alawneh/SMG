@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/appointments.dart';
-import 'package:flutter_application_1/clinics.dart';
+import 'package:flutter_application_1/screens/appointments.dart';
+import 'package:flutter_application_1/screens/clinics.dart';
+import 'package:flutter_application_1/screens/welcome.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Appointments()
+      home: Welcome()
     );
   }
 }
