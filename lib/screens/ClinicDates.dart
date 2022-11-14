@@ -21,7 +21,7 @@ class _ClinicDatesState extends State<ClinicDates> {
             Padding(
               padding: const EdgeInsets.all(20.0),
               child: Column(
-                children: [
+                children: const[
                   Text(
                     ' عيادة الدكتور سمير عتيق',
                     style: TextStyle(
