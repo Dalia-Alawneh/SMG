@@ -46,7 +46,11 @@ class _RegisterLoginState extends State<RegisterLogin> {
                     ),
                   ),
                 ),
-                User(user: 'مريض',),
+                User(
+                  user: 'مريض',
+                  
+                  ),
+                
                 User(user: 'طبيب'),
                 User(user: 'سكرتير',),
               ],
