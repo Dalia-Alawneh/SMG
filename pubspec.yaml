@@ -39,6 +39,8 @@ dependencies:
   avatar_glow:
   font_awesome_flutter: ^10.2.1
   slide_to_act:
+  speech_to_text: ^6.1.0
+  
 
 dev_dependencies:
   flutter_test:
