@@ -62,7 +62,7 @@ class BottomBar extends StatelessWidget {
                 break;
               case 3:
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => RecordingScreen()));
+                    MaterialPageRoute(builder: (context) => MyApp()));
                 break;
               case 4:
                 Navigator.push(context,
