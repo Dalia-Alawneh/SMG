@@ -1,6 +1,7 @@
 import 'package:avatar_glow/avatar_glow.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/screens/location.dart';
 import '../screens/RegisterLogin.dart';
 import '../screens/page_header.dart';
 
@@ -274,6 +275,7 @@ class _MyAppState extends State<MyApp> {
     setState(() {
       level = 0.0;
     });
+    Navigator.push(context, MaterialPageRoute(builder: (context) => Home()));
   }
 
   void cancelListening() {

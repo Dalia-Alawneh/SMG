@@ -159,6 +159,7 @@ import 'dart:async';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/screens/location.dart';
 import 'package:flutter_application_1/screens/recording_screen.dart';
 // import 'package:google_mlkit_translation/google_mlkit_translation.dart';
 import 'package:speech_to_text/speech_recognition_error.dart';
@@ -168,7 +169,7 @@ import 'package:speech_to_text/speech_to_text.dart';
 
 void main() => runApp(MaterialApp(home: MyApp()));
 
-// class MyApp extends StatefulWidget {
+// class MyApp extends S`tatefulWidget {
 //   @override
 //   _MyAppState createState() => _MyAppState();
 // }
